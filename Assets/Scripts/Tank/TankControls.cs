@@ -27,42 +27,31 @@ namespace Tanks
     ""maps"": [
         {
             ""name"": ""Tank"",
-            ""id"": ""5e8e8796-6cef-4986-80b9-c82784809caf"",
+            ""id"": ""349c2f62-a9c2-48e2-8acb-11bf5e1b8e4b"",
             ""actions"": [
-                {
-                    ""name"": ""Handbreak"",
-                    ""type"": ""Button"",
-                    ""id"": ""23763d97-a69f-4272-a08b-fda7822ebbde"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
                 {
                     ""name"": ""Movement"",
                     ""type"": ""Value"",
-                    ""id"": ""a3db4fe2-2519-47cf-996d-4d781a92ff0b"",
+                    ""id"": ""b3c22a0d-b8dd-4d12-8ee4-01be2644ccd5"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Handbreak"",
+                    ""type"": ""Button"",
+                    ""id"": ""30a59430-58c0-49b9-8b7b-574a18a5bf68"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
                 {
-                    ""name"": """",
-                    ""id"": ""78a6f6d5-991b-4c05-af07-0f210e4c6993"",
-                    ""path"": ""<Keyboard>/space"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Handbreak"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
                     ""name"": ""WASD"",
-                    ""id"": ""ebc8283c-14ce-45cd-af24-7aa8e8754549"",
+                    ""id"": ""02e58a0c-4487-4e10-a8e5-0de5ce986602"",
                     ""path"": ""2DVector"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -73,7 +62,7 @@ namespace Tanks
                 },
                 {
                     ""name"": ""up"",
-                    ""id"": ""665fb6ba-96ec-422c-a937-5ce2de11083e"",
+                    ""id"": ""5b031351-e3ec-4d14-91e0-992d71b7a7f7"",
                     ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -84,7 +73,7 @@ namespace Tanks
                 },
                 {
                     ""name"": ""down"",
-                    ""id"": ""fbb45042-7885-428a-859b-32f427dc7212"",
+                    ""id"": ""7b261aaf-2695-4fd7-8973-296fbcef3351"",
                     ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -95,7 +84,7 @@ namespace Tanks
                 },
                 {
                     ""name"": ""left"",
-                    ""id"": ""54fc927b-0af2-4ec6-a365-a19b7c5e1c90"",
+                    ""id"": ""346c26a4-6349-41b6-8e5e-187bbe77ceef"",
                     ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -106,7 +95,7 @@ namespace Tanks
                 },
                 {
                     ""name"": ""right"",
-                    ""id"": ""059a3cd7-2e0e-41c6-afd4-460dc74eb5ea"",
+                    ""id"": ""79b8d7b9-ed52-4c6a-9708-09e3f833e118"",
                     ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -114,52 +103,63 @@ namespace Tanks
                     ""action"": ""Movement"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""31d67a2a-7f1e-42ab-8871-5a66591780d2"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Handbreak"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
         {
             ""name"": ""Turret"",
-            ""id"": ""0df06b09-fed8-489d-9c56-b2ab39f49ee9"",
+            ""id"": ""ee408226-575a-45c5-9b8a-32b89218dedb"",
             ""actions"": [
-                {
-                    ""name"": ""Fire"",
-                    ""type"": ""Button"",
-                    ""id"": ""f531da46-b650-48ed-a1ef-cae748847dbb"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
                 {
                     ""name"": ""Focus"",
                     ""type"": ""Value"",
-                    ""id"": ""b3501b8e-5026-407d-975a-b28b673f4ecb"",
+                    ""id"": ""490d227b-994b-41d9-a52a-5a0f31c6555d"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Fire"",
+                    ""type"": ""Button"",
+                    ""id"": ""6e85f583-8e16-4c9c-8c80-4c9ed18d6933"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
                 {
                     ""name"": """",
-                    ""id"": ""b6dc593f-75b4-46a0-8e5c-7b22a2c11aee"",
-                    ""path"": ""<Keyboard>/e"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Fire"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""fae9dcc4-9780-4e5e-a8d2-d85a95cf256b"",
+                    ""id"": ""c975d314-9f22-401a-8962-2b3340d6e8fd"",
                     ""path"": ""<Mouse>/delta"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Focus"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2719a6d6-e644-41ba-a985-23767035e9ed"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Fire"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -170,12 +170,12 @@ namespace Tanks
 }");
             // Tank
             m_Tank = asset.FindActionMap("Tank", throwIfNotFound: true);
-            m_Tank_Handbreak = m_Tank.FindAction("Handbreak", throwIfNotFound: true);
             m_Tank_Movement = m_Tank.FindAction("Movement", throwIfNotFound: true);
+            m_Tank_Handbreak = m_Tank.FindAction("Handbreak", throwIfNotFound: true);
             // Turret
             m_Turret = asset.FindActionMap("Turret", throwIfNotFound: true);
-            m_Turret_Fire = m_Turret.FindAction("Fire", throwIfNotFound: true);
             m_Turret_Focus = m_Turret.FindAction("Focus", throwIfNotFound: true);
+            m_Turret_Fire = m_Turret.FindAction("Fire", throwIfNotFound: true);
         }
 
         public void Dispose()
@@ -237,14 +237,14 @@ namespace Tanks
         // Tank
         private readonly InputActionMap m_Tank;
         private List<ITankActions> m_TankActionsCallbackInterfaces = new List<ITankActions>();
-        private readonly InputAction m_Tank_Handbreak;
         private readonly InputAction m_Tank_Movement;
+        private readonly InputAction m_Tank_Handbreak;
         public struct TankActions
         {
             private @TankControls m_Wrapper;
             public TankActions(@TankControls wrapper) { m_Wrapper = wrapper; }
-            public InputAction @Handbreak => m_Wrapper.m_Tank_Handbreak;
             public InputAction @Movement => m_Wrapper.m_Tank_Movement;
+            public InputAction @Handbreak => m_Wrapper.m_Tank_Handbreak;
             public InputActionMap Get() { return m_Wrapper.m_Tank; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -254,22 +254,22 @@ namespace Tanks
             {
                 if (instance == null || m_Wrapper.m_TankActionsCallbackInterfaces.Contains(instance)) return;
                 m_Wrapper.m_TankActionsCallbackInterfaces.Add(instance);
-                @Handbreak.started += instance.OnHandbreak;
-                @Handbreak.performed += instance.OnHandbreak;
-                @Handbreak.canceled += instance.OnHandbreak;
                 @Movement.started += instance.OnMovement;
                 @Movement.performed += instance.OnMovement;
                 @Movement.canceled += instance.OnMovement;
+                @Handbreak.started += instance.OnHandbreak;
+                @Handbreak.performed += instance.OnHandbreak;
+                @Handbreak.canceled += instance.OnHandbreak;
             }
 
             private void UnregisterCallbacks(ITankActions instance)
             {
-                @Handbreak.started -= instance.OnHandbreak;
-                @Handbreak.performed -= instance.OnHandbreak;
-                @Handbreak.canceled -= instance.OnHandbreak;
                 @Movement.started -= instance.OnMovement;
                 @Movement.performed -= instance.OnMovement;
                 @Movement.canceled -= instance.OnMovement;
+                @Handbreak.started -= instance.OnHandbreak;
+                @Handbreak.performed -= instance.OnHandbreak;
+                @Handbreak.canceled -= instance.OnHandbreak;
             }
 
             public void RemoveCallbacks(ITankActions instance)
@@ -291,14 +291,14 @@ namespace Tanks
         // Turret
         private readonly InputActionMap m_Turret;
         private List<ITurretActions> m_TurretActionsCallbackInterfaces = new List<ITurretActions>();
-        private readonly InputAction m_Turret_Fire;
         private readonly InputAction m_Turret_Focus;
+        private readonly InputAction m_Turret_Fire;
         public struct TurretActions
         {
             private @TankControls m_Wrapper;
             public TurretActions(@TankControls wrapper) { m_Wrapper = wrapper; }
-            public InputAction @Fire => m_Wrapper.m_Turret_Fire;
             public InputAction @Focus => m_Wrapper.m_Turret_Focus;
+            public InputAction @Fire => m_Wrapper.m_Turret_Fire;
             public InputActionMap Get() { return m_Wrapper.m_Turret; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -308,22 +308,22 @@ namespace Tanks
             {
                 if (instance == null || m_Wrapper.m_TurretActionsCallbackInterfaces.Contains(instance)) return;
                 m_Wrapper.m_TurretActionsCallbackInterfaces.Add(instance);
-                @Fire.started += instance.OnFire;
-                @Fire.performed += instance.OnFire;
-                @Fire.canceled += instance.OnFire;
                 @Focus.started += instance.OnFocus;
                 @Focus.performed += instance.OnFocus;
                 @Focus.canceled += instance.OnFocus;
+                @Fire.started += instance.OnFire;
+                @Fire.performed += instance.OnFire;
+                @Fire.canceled += instance.OnFire;
             }
 
             private void UnregisterCallbacks(ITurretActions instance)
             {
-                @Fire.started -= instance.OnFire;
-                @Fire.performed -= instance.OnFire;
-                @Fire.canceled -= instance.OnFire;
                 @Focus.started -= instance.OnFocus;
                 @Focus.performed -= instance.OnFocus;
                 @Focus.canceled -= instance.OnFocus;
+                @Fire.started -= instance.OnFire;
+                @Fire.performed -= instance.OnFire;
+                @Fire.canceled -= instance.OnFire;
             }
 
             public void RemoveCallbacks(ITurretActions instance)
@@ -343,13 +343,13 @@ namespace Tanks
         public TurretActions @Turret => new TurretActions(this);
         public interface ITankActions
         {
-            void OnHandbreak(InputAction.CallbackContext context);
             void OnMovement(InputAction.CallbackContext context);
+            void OnHandbreak(InputAction.CallbackContext context);
         }
         public interface ITurretActions
         {
-            void OnFire(InputAction.CallbackContext context);
             void OnFocus(InputAction.CallbackContext context);
+            void OnFire(InputAction.CallbackContext context);
         }
     }
 }
